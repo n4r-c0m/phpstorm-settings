@@ -1,18 +1,17 @@
 <scheme name="Monokai (n4r.c0m)" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
+  <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="262626" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="212121" />
     <option name="FILESTATUS_MODIFIED" value="2d6ef1" />
     <option name="FILESTATUS_UNKNOWN" value="ff7408" />
     <option name="FILESTATUS_modifiedOutside" value="b350ff" />
-    <option name="GUTTER_BACKGROUND" value="1e1e1e" />
+    <option name="GUTTER_BACKGROUND" value="212121" />
     <option name="INDENT_GUIDE" value="282923" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
     <option name="METHOD_SEPARATORS_COLOR" value="282923" />
@@ -20,9 +19,9 @@
     <option name="RIGHT_MARGIN_COLOR" value="4b4b4b" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTED_TEARLINE_COLOR" value="3c3f41" />
-    <option name="SELECTION_BACKGROUND" value="38372c" />
+    <option name="SELECTION_BACKGROUND" value="363738" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="303030" />
+    <option name="TEARLINE_COLOR" value="292929" />
     <option name="WHITESPACES" value="3b3a32" />
   </colors>
   <attributes>
@@ -642,9 +641,8 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="454645" />
-        <option name="BACKGROUND" value="20211b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="3c3d3c" />
+        <option name="EFFECT_COLOR" value="2d2d2d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1498,8 +1496,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="1e1e1e" />
+        <option name="FOREGROUND" value="cfdbf0" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1534,10 +1532,9 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3f10" />
-        <option name="EFFECT_COLOR" value="f8f8f2" />
-        <option name="ERROR_STRIPE_COLOR" value="ebc700" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="929227" />
+        <option name="ERROR_STRIPE_COLOR" value="796400" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
