@@ -1,0 +1,39 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="n4r-c0m" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="X:\wp.dev\" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.diadus.net" />
+          <option name="userName" value="root" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.netnazar.com" />
+          <option name="userName" value="root" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="D:\Projects\" />
+  </component>
+  <component name="HgRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://mercurial.diadus.net/semantica.dev" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="E:\Projects\NetNazar\src" />
+    <option name="SHOW_WHITESPACES_IN_LST" value="true" />
+  </component>
+</application>

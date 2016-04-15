@@ -1,0 +1,13 @@
+<filetype binary="false" description="INI Files" name="INI Files">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value=";" />
+      <option name="COMMENT_START" value="" />
+      <option name="COMMENT_END" value="" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+    </options>
+    <keywords keywords="production" ignore_case="false" />
+    <keywords2 keywords="phpSettings" />
+  </highlighting>
+</filetype>

@@ -1,0 +1,142 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--no-color &quot;X:\semantica.dev\wp-content\themes\v4\assets\styles\less\main.less&quot;" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="LESS" />
+      <option name="output" value="main.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="X:\semantica.dev\wp-content\themes\v4\assets\styles" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color less\main.less" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Theme LESS" />
+      <option name="output" value="main.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="X:\semantica.dev\wp-content\themes\v4\assets\styles" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="page-loader.js templater.js dropdown.js main.js video.js videobox.js your-account.js tm-embedder.js index-page.js support-panel.js login-form.js -b -o &quot;X:\semantica.dev\wp-content\themes\v4\assets\scripts\script.min.js&quot;" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compress .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyJS" />
+      <option name="output" value="&quot;X:\semantica.dev\wp-content\themes\v4\assets\scripts\script.min.js&quot;" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/node_modules/.bin/uglifyjs.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="X:\semantica.dev\wp-content\themes\v4\assets\scripts\src" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--map --compile --no-header $FileName$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compiles .coffee files into .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="coffee" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="CoffeeScript" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.map:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="coffee error format" />
+            <option name="name" value="coffee" />
+            <option name="regExp" value="$FILE_PATH$:$LINE$:$COLUMN$: $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/coffee.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--no-color $FileName$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Less" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="pscss source\$FileName$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compiles .scss files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/pscss.bat" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\assets\styles\" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>

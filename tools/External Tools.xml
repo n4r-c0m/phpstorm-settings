@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="php-cs-fix" description="Run PHP Code Standarts Fix with PSR2 level on the current file" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\boris\AppData\Roaming\Composer\vendor\bin\php-cs-fixer.bat" />
+      <option name="PARAMETERS" value="fix &quot;$FilePathRelativeToProjectRoot$&quot; --level=psr2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="php-cs-fix prompt" description="Run PHP Code Standarts Fix with PSR2 level on the current file" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\boris\AppData\Roaming\Composer\vendor\bin\php-cs-fixer.bat" />
+      <option name="PARAMETERS" value="fix &quot;$FilePrompt$&quot; --level=psr2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

@@ -1,0 +1,49 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CollapseAllRegions" />
+  <action id="CollapseDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="ExpandAllRegions" />
+  <action id="ExpandDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="Tool_External Tools_php-cs-fix">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="ViewToolButtons">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>

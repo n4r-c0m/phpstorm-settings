@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="OpenInTerminal.open.current">
+        <abbreviation name="termd" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

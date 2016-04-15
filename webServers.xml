@@ -1,0 +1,104 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="25ef533d-6791-4840-a723-33c3467ea781" name="Server" url="http://imei.dev">
+        <fileTransfer host="192.168.150.20" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica.dev/" accessType="SFTP" username="boris" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d9eec581-63f0-42b5-b841-5f2ad7cd69fd" name="ACP" url="http://otpsystem.dreamservers.com">
+        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/otpsystem" password="df9cdff3df98dfd9dfe2dfdfdfd2dffc" username="otp1001nacht">
+          <advancedOptions>
+            <advancedOptions maxConnections="5" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5c583d9d-0289-415a-aedb-d8cd40895510" name="Orienttepiche" url="http://orienttepiche.cc">
+        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/orientteppiche.cc" password="df9cdff3df98dfd9dfe2dfdfdfd2dffc" username="otp1001nacht">
+          <advancedOptions>
+            <advancedOptions maxConnections="5" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0a32e8d9-a4b2-416a-b3ca-464638922a40" name="Rood.org.ua" url="http://rood.org.ua">
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/rood.org.ua/www" password="df99dfc9dfd3dff9dffddff9dfe9dfe0" username="diadus_ftp" />
+      </webServer>
+      <webServer id="e3ddef7e-ccd5-4c7f-b427-6d1041b11d40" name="shatush-showroom.com" url="http://shatush-showroom.com">
+        <fileTransfer host="ftp.shatush-showroom.com" port="21" password="dfeedfeddffedf9edfd3dfcfdffddfc4dfcfdff8dffbdfc2" username="general@shatush-showroom.com" />
+      </webServer>
+      <webServer id="ad249d26-0fd5-4745-afa3-8a12538b3b5f" name="my-bagholder.com" url="http://my-bagholder.com">
+        <fileTransfer host="ftp.my-bagholder.com" port="21" rootFolder="/www.my-bagholder.com" password="dfffdff2dfe9dfc8dfc9df99dfe8dfdedfebdfffdfdfdffcdfd9dfd9df9edfc1" username="w00e611f" />
+      </webServer>
+      <webServer id="a9bcf999-98a9-4977-b216-ea39f9785f26" name="nummer-index.de" url="http://nummer-index.de/">
+        <fileTransfer host="www.hamed.de" port="21" password="dfffdfd8dfc9df99dfcfdfeddf9bdfd3dffddf9f" username="212767-boris" />
+      </webServer>
+      <webServer id="6af8678f-33f4-4901-8556-29795da09f2e" name="Frank" url="http://franks.demo.mujo.be/">
+        <fileTransfer host="franks.demo.mujo.be" port="21" password="dfc5dff8df9edfe5dfcddfe4dfc8dff3dfeddf98df98dfc2dfff" username="ftp-franks" />
+      </webServer>
+      <webServer id="9b374818-32e5-49d4-a1df-5fd94cea0601" name="reactart.diadus.net" url="http://reactart.diadus.net">
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/diadus.net/reactart" password="df99dfc9dfd3dff9dffddff9dfe9dfe0" username="diadus_ftp" />
+      </webServer>
+      <webServer id="767af3cd-9f44-48f7-a789-44dbcb14598b" name="fm.diadus.net" url="http://fm.diadus.net">
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" password="dfccdfc3dfc6dfcfdfc7dfcbdfc4dfcbdfcddfcfdfd8dff5dff5" username="diadus_fm" />
+      </webServer>
+      <webServer id="e6d45e5b-5ac9-4443-a1d9-6c77d54d704e" name="huisvan.nl" url="http://huisvan.nl">
+        <fileTransfer host="ftp.huisvan.nl" port="21" rootFolder="/public_html/wp-content/themes/" username="ftplogin@huisvan.nl">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="120942fe-44bc-4537-a14f-3ca25e24e819" name="Semantica-Portuguese" url="http://www.semantica-portuguese.com">
+        <fileTransfer host="semantica-portuguese.com" port="22" rootFolder="/home/jhall3rd/public_html/" accessType="SFTP" password="dfdedf8fdfe8df98dfdadf8edfcfdf8cdfefdf97dfecdfce" username="jhall3rd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c6f91a03-43ca-49bb-bb53-585efb1651b6" name="NetNazar.com" url="http://www.netnazar.com">
+        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/netnazar.com/htdocs" accessType="SFTP" password="dfc7df99dfdedf9edf9fdfdadfc6df9adf9bdf9d" username="boris">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="33711613-c6be-49a3-8a50-7cf7e929e5ef" name="netnazar.net" url="http://netnazar.net">
+        <fileTransfer host="netnazar.net" port="21" password="dfdadf8bdfdadfd9dffddfcbdfc9dfc4df87df92dfdddfc9" username="212767-netnazar2015">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="eacfb6fe-d886-49e8-bb68-08f571bc01c4" name="dev.netnazar.com" url="http://www.netnazar.com:8000">
+        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/dev.netnazar.com/htdocs" accessType="SFTP" password="dfc7df99dfdedf9edf9fdfdadfc6df9adf9bdf9d" username="boris">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="65b84c43-ebe1-452f-8be8-26367f6a5130" name="ya24.com.ua" url="http://ya24.com.ua">
+        <fileTransfer host="185.86.76.234" port="22" privateKey="E:\Projects\ya24.com.ua\ssh-keys\mark.priv.openssh" rootFolder="/home/admin/web/ya24.com.ua/public_html" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="88afebd4-5f63-4810-99c4-f5c41f747ff4" name="Sema@DO" url="http://semantica.dev">
+        <fileTransfer host="45.55.17.129" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica-portuguese.com" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8cf693ba-1d37-484b-abe6-d6e1da4e74e3" name="design.ya24.com.ua" url="http://design.ya24.com.ua">
+        <fileTransfer host="185.86.76.234" port="21" password="dffddffedffbdfdddfcfdfe7dfe3dfe3dfdedfc1" username="admin_design">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

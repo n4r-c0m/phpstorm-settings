@@ -1,0 +1,23 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
+    <option name="defaultScopeName" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
+    <option name="SEARCH_SCOPE" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.po</mask>
+      <mask>*fa_IR*.po</mask>
+      <mask>*.js</mask>
+      <mask>*.tpl</mask>
+      <mask>*.twig</mask>
+      <mask>*.php</mask>
+    </recentFileMasks>
+  </component>
+</application>
