@@ -277,14 +277,6 @@
   <component name="VcsApplicationSettings" PATCH_STORAGE_LOCATION="X:\semantica.dev">
     <option name="PATCH_STORAGE_LOCATION" value="X:\semantica.dev" />
   </component>
-  <component name="XPathView.XPathViewPlugin">
-    <option name="attributes">
-      <TextAttributes />
-    </option>
-    <option name="contextAttributes">
-      <TextAttributes />
-    </option>
-  </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
       <option name="RECENT_TEMPLATES">
