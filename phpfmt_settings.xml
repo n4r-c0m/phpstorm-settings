@@ -3,7 +3,7 @@
     <option name="autoUpdatePhar" value="true" />
     <option name="debug" value="true" />
     <option name="formatOnSave" value="true" />
-    <option name="pharPath" value="C:\Users\boris\.PhpStorm2016.1\config\plugins\fmt.phar" />
+    <option name="pharPath" value="C:\Users\Boris\.PhpStorm2016.1\config\plugins\fmt.phar" />
     <option name="psr2" value="true" />
     <option name="version" value="1.0.13" />
   </component>
