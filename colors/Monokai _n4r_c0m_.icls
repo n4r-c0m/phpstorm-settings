@@ -10,6 +10,7 @@
     <option name="GUTTER_BACKGROUND" value="212121" />
     <option name="INDENT_GUIDE" value="32312c" />
     <option name="LINE_NUMBERS_COLOR" value="84847f" />
+    <option name="METHOD_SEPARATORS_COLOR" value="4c4c4c" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="49483e" />
     <option name="TEARLINE_COLOR" value="454545" />
