@@ -3,7 +3,7 @@
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -1085,6 +1085,11 @@
     <option name="PHP_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="2c9ea7" />
+      </value>
+    </option>
+    <option name="PHP_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ac0000" />
       </value>
     </option>
     <option name="PHP_TAG">
