@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
     <option name="defaultScopeName" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'D:\Projects\geckopress\wp-content\plugins\geckopress-for-woocommerce\src'" />
     <recentFileMasks>
       <mask>*.properties</mask>

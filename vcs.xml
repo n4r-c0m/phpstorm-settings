@@ -33,7 +33,7 @@
     </option>
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="E:\Projects\NetNazar\src" />
+    <option name="PATCH_STORAGE_LOCATION" value="$APPLICATION_HOME_DIR$/bin/E:\Projects\NetNazar\src" />
     <option name="SHOW_WHITESPACES_IN_LST" value="true" />
   </component>
 </application>
