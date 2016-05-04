@@ -859,6 +859,11 @@
         <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="505663" />
+      </value>
+    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="80807f" />
