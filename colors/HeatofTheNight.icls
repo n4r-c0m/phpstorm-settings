@@ -10,7 +10,6 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="1a1a1a" />
     <option name="FOLDING_TREE_COLOR" value="ffffff" />
     <option name="INDENT_GUIDE" value="3d3d3d" />
-    <option name="LINE_NUMBERS_COLOR" value="999999" />
     <option name="MODIFIED_LINES_COLOR" value="33382f" />
     <option name="NOTIFICATION_BACKGROUND" value="ffadad" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
@@ -988,7 +987,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c7c7c7" />

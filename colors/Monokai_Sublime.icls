@@ -659,7 +659,6 @@
         <option name="FOREGROUND" value="dc2a5d" />
       </value>
     </option>
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
