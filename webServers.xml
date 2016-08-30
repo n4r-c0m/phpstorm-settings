@@ -2,103 +2,131 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="25ef533d-6791-4840-a723-33c3467ea781" name="Server" url="http://imei.dev">
-        <fileTransfer host="192.168.150.20" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica.dev/" accessType="SFTP" username="boris" keyPair="true">
+        <fileTransfer host="192.168.150.20" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica.dev/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="d9eec581-63f0-42b5-b841-5f2ad7cd69fd" name="ACP" url="http://otpsystem.dreamservers.com">
-        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/otpsystem" password="df9cdff3df98dfd9dfe2dfdfdfd2dffc" username="otp1001nacht">
+        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/otpsystem">
           <advancedOptions>
             <advancedOptions maxConnections="5" passiveMode="true" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="5c583d9d-0289-415a-aedb-d8cd40895510" name="Orienttepiche" url="http://orienttepiche.cc">
-        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/orientteppiche.cc" password="df9cdff3df98dfd9dfe2dfdfdfd2dffc" username="otp1001nacht">
+        <fileTransfer host="ds3631.dreamservers.com" port="21" rootFolder="/orientteppiche.cc">
           <advancedOptions>
             <advancedOptions maxConnections="5" passiveMode="true" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="0a32e8d9-a4b2-416a-b3ca-464638922a40" name="Rood.org.ua" url="http://rood.org.ua">
-        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/rood.org.ua/www" password="df99dfc9dfd3dff9dffddff9dfe9dfe0" username="diadus_ftp" />
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/rood.org.ua/www">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="e3ddef7e-ccd5-4c7f-b427-6d1041b11d40" name="shatush-showroom.com" url="http://shatush-showroom.com">
-        <fileTransfer host="ftp.shatush-showroom.com" port="21" password="dfeedfeddffedf9edfd3dfcfdffddfc4dfcfdff8dffbdfc2" username="general@shatush-showroom.com" />
+        <fileTransfer host="ftp.shatush-showroom.com" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="ad249d26-0fd5-4745-afa3-8a12538b3b5f" name="my-bagholder.com" url="http://my-bagholder.com">
-        <fileTransfer host="ftp.my-bagholder.com" port="21" rootFolder="/www.my-bagholder.com" password="dfffdff2dfe9dfc8dfc9df99dfe8dfdedfebdfffdfdfdffcdfd9dfd9df9edfc1" username="w00e611f" />
+        <fileTransfer host="ftp.my-bagholder.com" port="21" rootFolder="/www.my-bagholder.com">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="a9bcf999-98a9-4977-b216-ea39f9785f26" name="nummer-index.de" url="http://nummer-index.de/">
-        <fileTransfer host="www.hamed.de" port="21" password="dfffdfd8dfc9df99dfcfdfeddf9bdfd3dffddf9f" username="212767-boris" />
+        <fileTransfer host="www.hamed.de" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="6af8678f-33f4-4901-8556-29795da09f2e" name="Frank" url="http://franks.demo.mujo.be/">
-        <fileTransfer host="franks.demo.mujo.be" port="21" password="dfc5dff8df9edfe5dfcddfe4dfc8dff3dfeddf98df98dfc2dfff" username="ftp-franks" />
+        <fileTransfer host="franks.demo.mujo.be" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="9b374818-32e5-49d4-a1df-5fd94cea0601" name="reactart.diadus.net" url="http://reactart.diadus.net">
-        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/diadus.net/reactart" password="df99dfc9dfd3dff9dffddff9dfe9dfe0" username="diadus_ftp" />
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" rootFolder="/diadus.net/reactart">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="767af3cd-9f44-48f7-a789-44dbcb14598b" name="fm.diadus.net" url="http://fm.diadus.net">
-        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21" password="dfccdfc3dfc6dfcfdfc7dfcbdfc4dfcbdfcddfcfdfd8dff5dff5" username="diadus_fm" />
+        <fileTransfer host="diadus.ftp.ukraine.com.ua" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
       <webServer id="e6d45e5b-5ac9-4443-a1d9-6c77d54d704e" name="huisvan.nl" url="http://huisvan.nl">
-        <fileTransfer host="ftp.huisvan.nl" port="21" rootFolder="/public_html/wp-content/themes/" username="ftplogin@huisvan.nl">
+        <fileTransfer host="ftp.huisvan.nl" port="21" rootFolder="/public_html/wp-content/themes/">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="120942fe-44bc-4537-a14f-3ca25e24e819" name="Semantica-Portuguese" url="http://www.semantica-portuguese.com">
-        <fileTransfer host="semantica-portuguese.com" port="22" rootFolder="/home/jhall3rd/public_html/" accessType="SFTP" password="dfdedf8fdfe8df98dfdadf8edfcfdf8cdfefdf97dfecdfce" username="jhall3rd">
+        <fileTransfer host="semantica-portuguese.com" port="22" rootFolder="/home/jhall3rd/public_html/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="c6f91a03-43ca-49bb-bb53-585efb1651b6" name="NetNazar.com" url="http://www.netnazar.com">
-        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/netnazar.com/htdocs" accessType="SFTP" password="dfc7df99dfdedf9edf9fdfdadfc6df9adf9bdf9d" username="boris">
+        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/netnazar.com/htdocs" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="33711613-c6be-49a3-8a50-7cf7e929e5ef" name="netnazar.net" url="http://netnazar.net">
-        <fileTransfer host="netnazar.net" port="21" password="dfdadf8bdfdadfd9dffddfcbdfc9dfc4df87df92dfdddfc9" username="212767-netnazar2015">
+        <fileTransfer host="netnazar.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="eacfb6fe-d886-49e8-bb68-08f571bc01c4" name="dev.netnazar.com" url="http://www.netnazar.com:8000">
-        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/dev.netnazar.com/htdocs" accessType="SFTP" password="dfc7df99dfdedf9edf9fdfdadfc6df9adf9bdf9d" username="boris">
+        <fileTransfer host="netnazar.com" port="22" rootFolder="/var/www/dev.netnazar.com/htdocs" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="65b84c43-ebe1-452f-8be8-26367f6a5130" name="ya24.com.ua" url="http://ya24.com.ua">
-        <fileTransfer host="185.86.76.234" port="22" privateKey="E:\Projects\ya24.com.ua\ssh-keys\mark.priv.openssh" rootFolder="/home/admin/web/ya24.com.ua/public_html" accessType="SFTP" username="root" keyPair="true">
+        <fileTransfer host="185.86.76.234" port="22" privateKey="E:\Projects\ya24.com.ua\ssh-keys\mark.priv.openssh" rootFolder="/home/admin/web/ya24.com.ua/public_html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="88afebd4-5f63-4810-99c4-f5c41f747ff4" name="Sema@DO" url="http://semantica.dev">
-        <fileTransfer host="45.55.17.129" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica-portuguese.com" accessType="SFTP" username="root" keyPair="true">
+        <fileTransfer host="45.55.17.129" port="22" privateKey="C:\Users\boris\.ssh\boris__id_rsa.ppk" rootFolder="/home/web/semantica-portuguese.com" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="8cf693ba-1d37-484b-abe6-d6e1da4e74e3" name="design.ya24.com.ua" url="http://design.ya24.com.ua">
-        <fileTransfer host="185.86.76.234" port="21" password="dffddffedffbdfdddfcfdfe7dfe3dfe3dfdedfc1" username="admin_design">
+        <fileTransfer host="185.86.76.234" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAAHkMWmAproFQ6Z8zV4qdlletZgupLeT3X3OGjWvHGAMTYA2N9qd0CAXW5kuP1IrGqRpkz0T3OCTnHlUq5rxbva0K1i5wX6IeWdHTw+C8h8WbCSTuzASkiWePSMjCGDuXAiOsuU+61ODmuHBw7Miso70Z8dn0uT2VMTBSxgSUfrrvaORxdpL/mkxAVEU4MTB7xY8zgbAMgDKm0SXoTjWdMZRcuZt2iWweDtYCXLdARWWYSP8E3xi4tAxw0FpbAHqrsAgPpEOjx8L3BLglcEVT0jD6i5N9wZRgYXhsR5aCNeNn63yke4XJLis/3xTVAUxiNNOO9PAmlA0N0bFgGuhHqyEorXrRRficKHLikotz63f/IHcScOi3XAGpGH9LoyBdeTbAYibiOT6XUwRuoFWO2YsST08ySDiFS7IyqjYPbc4u9Kol1qUa2PcAvqZ9/s5XQRtAPvjNg9iUNyqd+jrrvIH1MfaP3JsTv+xDYFwB8+sNSc9Qav9Z4HNO2zFfPuLW89XNdKsmsXQyGrgthn6E5z6HXFLk/KfLuxjicFXMLgmF2a2bw/SLBdnocYyxiAjszHPOvL5tHxWG35DWsBYpDGvL7v4v/De9cDjzKGliezp5CCggHFhwm/gheUaqKAb4dOESx895LHaE3dSP9/roCdhLFXn2vYRZymvmhsmJ+6mau5+sPocu75btJk5wliAM6rXSk9NzU0aehh1hGmBMxlxy+nK2eJBP5mpP+g2TtlcDQ6t4IDRYKa3buqw8iKUf8wQaDNj+fgDjTuy7/uftDse/mBOtzxx10UiQiNXgEMcbRyw/zWGa4HsttbpYHMDnqEhqmDDpF7LQ9AaoDwN1KOtTVvRwbZhoFfs5zEcHm4kCMkd3JSMvLgqyguHVwDqIYLG6QyVrZDdTFYZDwE4VdzF4/TVRTLF9BuG+Xeih27B37CQZAB9YR5A4wK6YNHTyGQ7RYqXBaic+PXZhy3A43jlkfCRLUwJaCCB3p5hO7vwViwCNMEVG/MCZ6IWqUvZoBgqmtyYTPPklQsre2IehP9qualjj65GOXrAyMOV7clmSj9Im9QGqnhWjHqigY97fuLO370p2QRCdHKWvJtrQTsu7hRTWGDooyj11/GsTRtb8C5/IBGatXvxC6OJfKKGz9Ud5rFlFonjX5Uc12QXsWjFa/+t9nzxKxjNwVLwNuRyA0bEh6+4U/dGOMZK3spvS3ZyBVyB6sPSRE7hch/7QIqXKnq7XZoJdW6EgJpZ5iUdcnCQe+6qSu7Rq1s92Q29+9+EeOEGjiPH4rG+sTxfUb3fYlafXKEjEDjMIaZ/KYhj6tArkx4Pq/SMCTKFkEaNknvOsNiU0wTVdU5npnYRIMjBKVuJrwO1iCrIMmjOAFpuMZRzEoZP/AOAvr04NuY55kDB4yn1esk13UZTc+cu9CJn2GcakdQwCrIEiB/gw5liAJlXyxVXSkRU94W+8Tz50YMeyXqaYJBBsO92hFItqy64oZ5ojPWCFrDUowjWXC0Z3n5vrTgqVVG6HWa+kwUcG+OMZ/cQzGB44sEQ1hJhcBMI+5OHJjsmNNcwNlYW98Vjg/IAhMBPWLw6larIlYS1GTvc4tAimj5VjNmoAd6I1JgCAwup44+eS+wRa4djx3LXP43QGqeqOc9B1gy+SL/BHiOOpmmvnH6ylx2Y0dJLr/Dy4zrd02I70HYGgmrmv/KoAz6OmFPKGaThgu+XTmlOdpVsx0lmuu5rFCxGdlqN6P37qcMQ1guWn67H27u4S6VFXs1Hj73+tPNMs/5Czz2r+jjGr5/m4oHjpwiuJ9A5UIVywR7tZl7INStjAQ6ckB1+fvKkovSPoQeWMDcA01gfJUoSwNY6Ve+CmaL/wti5Bq31yI0DDFn7GMXr2Z+eZizy+TfRi65gVH/hwMy7U3U3TDncmVfkUs70JkLCFm7ZahEf3ZsqXXHJxdCIu7F/pGy8qBaY6e4aiaZyCgdlnPzOOVtZ+SM4C2PeJ29v5JqVxTehmVu+wIEsUwBTwsnvu7EJhnEjCT3tcSCAQgr+CVjTstHN188plzLSofgH1dc1dJE+ajyDf0GaEH/h4MS41q4hGlTfXzvuKD0PVGVqqFIXGD7Fsm1gQ1Uk+/rFv4p2CzFNnX8F9m8xG/nrJbj/gu9PPKcXqyMxMM1GYm5lBVDVzAS3ujtVi8glI0d/apr9tuXJXf0ENBQEuQ8AX+VVjFrHh5d9HwgtiKPoPNoB/jZCyWCT13h71iGvqKH2hXTo0HyPf2UjQSna7giEvlH3x3mabdz93nT9W25AZVcZ729bL8Fy3v/VHKx6xfxlq3mjLFv7kUrIzRwclAF1hmdM3OVGgPBLxh3NGIrm3tz4PFM+YRKgeTPSyH6DTWYA7ypwaqQ4fp/2RQHJo3mPJdOVGCjFLgjERFho7f5lZD0xT7O4GXkcrIOHoQQJXmYTCBWv2fS0SU096y3k1COj9f23odqRhNUx+nLL1VERzkVD0A6iys1Aq3g5+rt1TZ4K+NLGj6fPAH71S1CNmRJsnGv0fCqZLHUfkUiYYScHIgEVZPt4aMjQwLLVHn0eO/uJuWop0ydHYuWuCT9mywJj/gBnOWmiRWJ</data>
   </component>
 </application>
